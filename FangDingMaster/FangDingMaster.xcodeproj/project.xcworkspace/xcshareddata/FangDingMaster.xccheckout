@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18C13933-A576-4826-A238-5ED785EEC83C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FangDingMaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1888B8DCD3DFD776B80A8AC0E00E5229F405374B</key>
+		<string>https://bitbucket.org/KinGlory/me-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FangDingMaster/FangDingMaster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1888B8DCD3DFD776B80A8AC0E00E5229F405374B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/KinGlory/me-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1888B8DCD3DFD776B80A8AC0E00E5229F405374B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1888B8DCD3DFD776B80A8AC0E00E5229F405374B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>me</string>
+		</dict>
+	</array>
+</dict>
+</plist>

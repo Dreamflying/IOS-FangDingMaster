@@ -4,3 +4,4 @@
       2.utils:静态变量全局类，AFWorkNetingUtils,MJextension
       3.RequestUtils
       4.JSONUtils
+      5.MD5Utils

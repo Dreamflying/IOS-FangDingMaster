@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "MD5Utils.h"
+#import "UserDefaultUtils.h"
 
 @interface ViewController ()
 
@@ -27,6 +29,9 @@
     NSArray *array = [[NSArray alloc] initWithObjects:@"美国", @"菲律宾",
                       @"黄岩岛", @"中国", @"泰国", @"越南", @"老挝",
                       @"日本" , nil];
+    NSLog(@"%@",[MD5Utils md5HexDigest:@"12345"]);
+    [UserDefaultUtils saveUserName:@"liyuan"];
+    NSLog(@"%@",[UserDefaultUtils getUserName]);
     self.list = array;
    
 }

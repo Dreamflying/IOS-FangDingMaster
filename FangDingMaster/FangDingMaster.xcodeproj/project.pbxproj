@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2030FAC21ACB8E9C004C906D /* UserDefaultUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2030FAC11ACB8E9C004C906D /* UserDefaultUtils.m */; };
 		203C42161AA9EA51000740FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C42151AA9EA51000740FC /* main.m */; };
 		203C42191AA9EA51000740FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C42181AA9EA51000740FC /* AppDelegate.m */; };
 		203C421C1AA9EA51000740FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C421B1AA9EA51000740FC /* ViewController.m */; };
@@ -43,6 +44,7 @@
 		203C42FF1AAC8463000740FC /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C42F51AAC8463000740FC /* AFURLResponseSerialization.m */; };
 		203C43001AAC8463000740FC /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 203C42F71AAC8463000740FC /* AFURLSessionManager.m */; };
 		203C43021AAC85D2000740FC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203C43011AAC85D2000740FC /* MobileCoreServices.framework */; };
+		206BD5A81ACAFAF4004AD855 /* MD5Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 206BD5A71ACAFAF4004AD855 /* MD5Utils.m */; };
 		20BA36511AAF3FCB0041D5E2 /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20BA36501AAF3FCB0041D5E2 /* 0.jpeg */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2030FAC01ACB8E9C004C906D /* UserDefaultUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultUtils.h; sourceTree = "<group>"; };
+		2030FAC11ACB8E9C004C906D /* UserDefaultUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultUtils.m; sourceTree = "<group>"; };
 		203C42101AA9EA51000740FC /* FangDingMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangDingMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203C42141AA9EA51000740FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		203C42151AA9EA51000740FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 		203C42F61AAC8463000740FC /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		203C42F71AAC8463000740FC /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		203C43011AAC85D2000740FC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		206BD5A61ACAFAF4004AD855 /* MD5Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Utils.h; sourceTree = "<group>"; };
+		206BD5A71ACAFAF4004AD855 /* MD5Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Utils.m; sourceTree = "<group>"; };
 		20BA36501AAF3FCB0041D5E2 /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpeg; path = ../../../Downloads/0.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -239,12 +245,16 @@
 		203C42821AA9F5EC000740FC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				206BD5A61ACAFAF4004AD855 /* MD5Utils.h */,
+				206BD5A71ACAFAF4004AD855 /* MD5Utils.m */,
 				203C42E41AAC8463000740FC /* AFNetworking */,
 				203C42D31AAADE8E000740FC /* RequestUtils.h */,
 				203C42D41AAADE8E000740FC /* RequestUtils.m */,
 				203C429F1AA9F701000740FC /* JsonUtils.h */,
 				203C42A01AA9F70A000740FC /* JsonUtils.m */,
 				203C42831AA9F5EC000740FC /* MJExtension */,
+				2030FAC01ACB8E9C004C906D /* UserDefaultUtils.h */,
+				2030FAC11ACB8E9C004C906D /* UserDefaultUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -417,6 +427,7 @@
 				203C42A11AA9F70A000740FC /* JsonUtils.m in Sources */,
 				203C42981AA9F5EC000740FC /* MJFoundation.m in Sources */,
 				203C42961AA9F5EC000740FC /* BaseViewController.m in Sources */,
+				206BD5A81ACAFAF4004AD855 /* MD5Utils.m in Sources */,
 				203C429D1AA9F5EC000740FC /* NSObject+MJKeyValue.m in Sources */,
 				203C42A51AAAD29C000740FC /* RequestDelegate.m in Sources */,
 				203C429B1AA9F5EC000740FC /* NSObject+MJCoding.m in Sources */,
@@ -434,6 +445,7 @@
 				203C42951AA9F5EC000740FC /* BaseDelegate.m in Sources */,
 				203C42A81AAAD3CA000740FC /* Constant.m in Sources */,
 				203C42D81AAB16A9000740FC /* RequestModel.m in Sources */,
+				2030FAC21ACB8E9C004C906D /* UserDefaultUtils.m in Sources */,
 				203C42FB1AAC8463000740FC /* AFNetworkReachabilityManager.m in Sources */,
 				203C429C1AA9F5EC000740FC /* NSObject+MJIvar.m in Sources */,
 			);
